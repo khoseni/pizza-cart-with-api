@@ -1,0 +1,111 @@
+body{
+    background-color: cadetblue;
+    color: wheat;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+ /*.pizzas{
+   display: flex;
+}*/
+
+.pizza{
+    /*border-color: 1px solid #d11149;*/
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 15em;
+    /*flex: 1; */
+    border-radius: 0.25em;
+    display: inline-block;
+    background-color: aquamarine;
+    color: black;
+}
+
+.btn{
+    color: goldenrod;
+    background-color: crimson;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    border: 0.5px solid #fdfffc;
+    padding: 0.5em;
+}
+
+.message{
+    padding: 1em;
+    color:crimson;
+}
+.cart{
+    display:flex
+}
+
+.cart div {
+    flex: 1;
+}
+
+[x-cloak]{display: none !important;}
+
+
+
+.pissa {
+    border: 0.5px #f4d30e;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+
+.medium_pizza {
+    background-color: #f95738;
+
+}
+
+.large_pizza {
+    background-color: #f4d35e;
+
+}
+
+.small_pizza {
+    background-color: #ee964b;
+
+}
+
+.contact_us {
+    background-color: #faf0ca;
+
+}
+
+@media (min-width : 960px) {
+    .pissas {
+        display: flex;
+    }
+}
+
+.taxting {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+/*button styling*/
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    padding:15px 30px;
+}
